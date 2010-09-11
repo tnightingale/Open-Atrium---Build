@@ -1,11 +1,13 @@
 core = 6.x
 
+projects[drupal][version] = 6.19
+
 ; CVS checkout of Drupal 6.x core:
-projects[drupal][type] = "core"
-projects[drupal][download][type] = "cvs"
-projects[drupal][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal"
-projects[drupal][download][revision] = "DRUPAL-6"
-projects[drupal][download][module] = "drupal"
+;projects[drupal][type] = "core"
+;projects[drupal][download][type] = "cvs"
+;projects[drupal][download][root] = ":pserver:anonymous:anonymous@cvs.drupal.org:/cvs/drupal"
+;projects[drupal][download][revision] = "DRUPAL-6"
+;projects[drupal][download][module] = "drupal"
 
 projects[openatrium][type] = profile
 projects[openatrium][download][type] = cvs
